@@ -17,5 +17,5 @@ jobs:
         username: ${{ secrets.SERVER_USERNAME }}
         password: ${{ secrets.SERVER_PASSWORD }}
         port: ${{ secrets.SERVER_PORT }}
-        source: "."
+        source: "index.html"
         target: "/var/www/html/nathanszig/"
