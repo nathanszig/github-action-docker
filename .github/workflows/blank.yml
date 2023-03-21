@@ -18,4 +18,4 @@ jobs:
         password: ${{ secrets.SERVER_PASSWORD }}
         port: ${{ secrets.SERVER_PORT }}
         source: "."
-        target: "/var/www/html/nathanszig"
+        target: "/var/www/html/nathanszig/"
